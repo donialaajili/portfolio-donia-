@@ -7,7 +7,6 @@
     "build": "next build",
     "start": "next start",
     "postbuild": "npm run sitemap",
-    
     "lint": "next lint",
     "sitemap": "cross-env NODE_OPTIONS='--experimental-json-modules' node ./src/scripts/generateSitemap.mjs",
     "analyze": "cross-env ANALYZE=true next build",
@@ -61,4 +60,3 @@
     "*.+(js|jsx|ts|tsx|json|css|md|mdx)": ["prettier --write"]
   }
 }
-
