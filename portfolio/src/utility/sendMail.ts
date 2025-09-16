@@ -8,7 +8,6 @@ export type SendMailParams = {
 };
 
 export default async function sendMail({
-  name,
   email,
   subject,
   message,

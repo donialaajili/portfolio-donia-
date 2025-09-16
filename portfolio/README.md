@@ -1,5 +1,3 @@
-
-
 ## 🛠️ Development setup
 
 ### Step 1 - Install dependencies

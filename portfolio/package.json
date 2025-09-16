@@ -3,10 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev -p $PORT",
+    "dev": "next dev",
     "build": "next build",
-    "start": "next start",
     "postbuild": "npm run sitemap",
+    "start": "next start -p 3001",
     "lint": "next lint",
     "sitemap": "cross-env NODE_OPTIONS='--experimental-json-modules' node ./src/scripts/generateSitemap.mjs",
     "analyze": "cross-env ANALYZE=true next build",
@@ -56,7 +56,11 @@
     "typescript": "5.1.3"
   },
   "lint-staged": {
-    "*.+(js|jsx|ts|tsx)": ["eslint --fix"],
-    "*.+(js|jsx|ts|tsx|json|css|md|mdx)": ["prettier --write"]
+    "*.+(js|jsx|ts|tsx)": [
+      "eslint --fix"
+    ],
+    "*.+(js|jsx|ts|tsx|json|css|md|mdx)": [
+      "prettier --write"
+    ]
   }
 }

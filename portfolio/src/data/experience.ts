@@ -9,7 +9,8 @@ export const EXPERIENCE: ExperienceShowcaseListItemProps[] = [
     },
     date: "jun 2025 - sept 2025",
     location: "",
-    description: "Refactoring multiple pages and integrating subscription processes with Stripe.Implementing a unified backend to handle authentication across all applications.Adding Google authentication.Managing subscriptions, payments, and related processes efficiently.",
+    description:
+      "Refactoring multiple pages and integrating subscription processes with Stripe.Implementing a unified backend to handle authentication across all applications.Adding Google authentication.Managing subscriptions, payments, and related processes efficiently.",
   },
   {
     title: "💻 Frontend Developer Intern",

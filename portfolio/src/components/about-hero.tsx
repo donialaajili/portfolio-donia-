@@ -28,6 +28,7 @@ export default function AboutHero() {
           </FadeUp>
         </AnimatePresence>
       </div>
+
       <div className="sm:1/2 mt-10 w-full lg:w-1/2">
         <AnimatePresence>
           <FadeUp key="title-greeting" duration={0.6}>
@@ -35,27 +36,30 @@ export default function AboutHero() {
               Hi, I&apos;m Donia Laajili
             </h1>
           </FadeUp>
+
           <FadeUp key="description-1" duration={0.6} delay={0.2}>
             <p className="mt-8 text-base font-medium text-zinc-900 dark:text-zinc-300 sm:text-lg md:text-lg">
-              I turn vision into secure and functional digital experiences.
-              Whether I'm developing web or mobile applications, hunting threats
-              in a SOC environment, or performing penetration tests, I bring a
-              strong security mindset, technical versatility, and user-focused
-              thinking to every project I take on.
+              I turn vision into secure and functional digital experiences. Whether
+              I&apos;m developing web or mobile applications, hunting threats in a
+              SOC environment, or performing penetration tests, I bring a strong
+              security mindset, technical versatility, and user-focused thinking
+              to every project I take on.
             </p>
           </FadeUp>
+
           <FadeUp key="description-2" duration={0.6} delay={0.4}>
             <p className="mt-8 text-base font-medium text-zinc-900 dark:text-zinc-300 sm:text-lg md:text-lg">
               Explore my latest{" "}
               <Link href="/projects" className="underline underline-offset-4">
                 <span className="text-accent">projects</span>
               </Link>{" "}
-              Showcasing my expertise in React.js, Angular, JavaScript, and
+              showcasing my expertise in React.js, Angular, JavaScript, and
               TypeScript for web development, while also leveraging Python, C++,
-              and Java for scripting, automation, and cybersecurity-oriented
-              tasks such as threat analysis and vulnerability research.
+              and Java for scripting, automation, and cybersecurity-oriented tasks
+              such as threat analysis and vulnerability research.
             </p>
           </FadeUp>
+
           <FadeRight
             key="hero-location"
             duration={0.6}
@@ -65,7 +69,7 @@ export default function AboutHero() {
             <div className="relative flex w-12 gap-4 overflow-hidden rounded-md">
               <Image
                 className="-z-10 h-full w-full bg-cover bg-no-repeat"
-                alt="Indian flag"
+                alt="French flag"
                 src={flagImg}
                 width={15}
                 height={15}
@@ -80,3 +84,4 @@ export default function AboutHero() {
     </div>
   );
 }
+

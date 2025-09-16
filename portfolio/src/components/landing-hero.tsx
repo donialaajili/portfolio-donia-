@@ -1,5 +1,4 @@
 import { useEffect, useRef, useState } from "react";
-
 import { AnimatePresence, motion } from "framer-motion";
 
 import FadeUp from "@/animation/fade-up";
@@ -21,7 +20,6 @@ export default function LandingHero() {
 
   useEffect(() => {
     document.addEventListener("scroll", handleScroll);
-
     return () => document.removeEventListener("scroll", handleScroll);
   }, []);
 
@@ -45,21 +43,28 @@ export default function LandingHero() {
                 Cybersecurity
               </span>
             </FadeUp>
+
             <FadeUp key="description" duration={0.6} delay={0.2}>
               <div className="mt-8 max-w-3xl text-base font-semibold text-zinc-900 dark:text-zinc-200 sm:text-base md:text-xl">
-                I'm a computer science student with a focus on cybersecurity.
-                I'm aiming to specialize in either penetration testing or
-                working within a Security Operations Center (SOC). I have
-                hands-on experience building mobile apps, web applications,
-                Skilled in{" "}
+                {
+                  "I'm a computer science student with a focus on cybersecurity. "
+                }
+                {
+                  "I'm aiming to specialize in either penetration testing or working within a Security Operations Center (SOC). "
+                }
+                {
+                  "I have hands-on experience building mobile apps, web applications, Skilled in "
+                }
                 <span className="font-semibold text-accent">ReactJS</span>,{" "}
                 <span className="font-semibold text-accent">NextJS</span>,{" "}
-                <span className="font-semibold text-accent">SolidJS</span>, and
-                an expert in{" "}
-                <span className="font-semibold text-accent">JavaScript</span>,{" "}
-                <span className="font-semibold text-accent">HTML</span> and{" "}
-                <span className="font-semibold text-accent">CSS</span>, and
-                desktop software.
+                <span className="font-semibold text-accent">SolidJS</span>,{" "}
+                {"and an expert in "}
+                <span className="font-semibold text-accent">
+                  JavaScript
+                </span>, <span className="font-semibold text-accent">HTML</span>{" "}
+                {"and "}
+                <span className="font-semibold text-accent">CSS</span>,{" "}
+                {"and desktop software."}
               </div>
             </FadeUp>
           </AnimatePresence>
