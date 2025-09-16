@@ -7,7 +7,12 @@ export type SendMailParams = {
   message: string;
 };
 
-export default async function sendMail({ name, email, subject, message }: SendMailParams) {
+export default async function sendMail({
+  name,
+  email,
+  subject,
+  message,
+}: SendMailParams) {
   try {
     const transporter = nodemailer.createTransport({
       host: process.env.SMTP_HOST,
@@ -33,9 +38,9 @@ export default async function sendMail({ name, email, subject, message }: SendMa
     return { status: 200, message: "Email envoyé avec succès !" };
   } catch (error: any) {
     console.error("❌ Erreur sendMail:", error);
-    return { status: 500, message: error.message || "Erreur lors de l'envoi du mail" };
+    return {
+      status: 500,
+      message: error.message || "Erreur lors de l'envoi du mail",
+    };
   }
 }
-
-
-

@@ -17,10 +17,6 @@ export const GithubIcon = (props: IconType) => (
   </svg>
 );
 
-
-
-
-
 export const ArrowTopRight = (props: IconType) => (
   <svg
     stroke="currentColor"
@@ -184,7 +180,10 @@ export const AngularIcon = ({ className }: IconType) => (
 export const VueIcon = ({ className }: IconType) => (
   <svg className={className} viewBox="0 0 261.76 226.69" fill="currentColor">
     <path d="M0 0h58.19l72.69 125.02L203.57 0h58.19L130.87 226.69z" />
-    <path d="M58.19 0 130.87 126.44 203.57 0h-43.64l-29.05 50.7L101.83 0H58.19z" fill="#41B883" />
+    <path
+      d="M58.19 0 130.87 126.44 203.57 0h-43.64l-29.05 50.7L101.83 0H58.19z"
+      fill="#41B883"
+    />
   </svg>
 );
 
@@ -217,7 +216,10 @@ export const BashIcon = ({ className }: IconType) => (
 export const SymfonyIcon = ({ className }: IconType) => (
   <svg className={className} viewBox="0 0 256 256" fill="currentColor">
     <circle cx="128" cy="128" r="120" />
-    <path d="M166 68c-12 0-20 6-24 14-4-8-12-14-24-14-14 0-26 12-26 28 0 8 4 14 10 18l20 12c4 2 6 6 6 10 0 4-4 8-8 8s-8-4-8-8h-12c0 10 8 18 18 18s18-8 18-18c0-6-2-12-8-16l-20-12c-2-2-4-4-4-8 0-4 4-8 8-8s8 4 8 8h12c0-10-8-18-18-18z" fill="#fff"/>
+    <path
+      d="M166 68c-12 0-20 6-24 14-4-8-12-14-24-14-14 0-26 12-26 28 0 8 4 14 10 18l20 12c4 2 6 6 6 10 0 4-4 8-8 8s-8-4-8-8h-12c0 10 8 18 18 18s18-8 18-18c0-6-2-12-8-16l-20-12c-2-2-4-4-4-8 0-4 4-8 8-8s8 4 8 8h12c0-10-8-18-18-18z"
+      fill="#fff"
+    />
   </svg>
 );
 
@@ -238,6 +240,5 @@ export function DangerIcon({ className }: { className?: string }) {
         d="M12 9v3.75m9-.75a9 9 0 11-18 0 9 9 0 0118 0zm-9 3.75h.008v.008H12v-.008z"
       ></path>
     </svg>
-    
   );
 }

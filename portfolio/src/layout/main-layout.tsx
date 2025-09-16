@@ -1,15 +1,11 @@
 import { ReactNode } from "react";
 
-import { Montserrat } from "next/font/google";
+import montserrat from "@/fonts/montserrat"; // import local font
 
 import Navbar from "@/layout/navbar";
 import Footer from "@/layout/footer";
 import { routes } from "@/data/navigationRoutes";
 import { classNames } from "@/utility/classNames";
-
-const montserrat = Montserrat({
-  subsets: ["latin"],
-});
 
 export interface MainLayoutProps {
   children: ReactNode;
@@ -26,3 +22,4 @@ export default function MainLayout(props: MainLayoutProps) {
     </>
   );
 }
+

@@ -10,7 +10,7 @@ export const EDUCATION: ExperienceShowcaseListItemProps[] = [
     date: "2022-2026",
     location: "France",
     description:
-    "Comprehensive curriculum focused on cybersecurity and fullstack development. Covered securing Active Directory, firewall and network security, cryptography, asset management, Microsoft Azure, network design and administration. Also included algorithm design, graph theory, advanced mathematics, as well as web, mobile, and game development.",
+      "Comprehensive curriculum focused on cybersecurity and fullstack development. Covered securing Active Directory, firewall and network security, cryptography, asset management, Microsoft Azure, network design and administration. Also included algorithm design, graph theory, advanced mathematics, as well as web, mobile, and game development.",
   },
   {
     title: "Bachelor Year – Mathematics, Computer Science, and Physics",
@@ -31,7 +31,6 @@ export const EDUCATION: ExperienceShowcaseListItemProps[] = [
     },
     date: "2019-2020",
     location: "Cusset, France",
-    description:
-      "",
+    description: "",
   },
 ];

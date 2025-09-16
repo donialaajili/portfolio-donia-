@@ -1,4 +1,12 @@
-import { AngularIcon, BashIcon, CppIcon, JavaIcon, SymfonyIcon, VueIcon, VuetifyIcon } from './../components/icons';
+import {
+  AngularIcon,
+  BashIcon,
+  CppIcon,
+  JavaIcon,
+  SymfonyIcon,
+  VueIcon,
+  VuetifyIcon,
+} from "./../components/icons";
 import {
   SiExpress,
   SiSocketdotio,
@@ -97,7 +105,7 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
         name: "Angular",
         icon: AngularIcon,
       },
-      
+
       {
         name: "ionic",
         icon: SiIonic,

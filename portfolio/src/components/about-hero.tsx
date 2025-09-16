@@ -37,8 +37,11 @@ export default function AboutHero() {
           </FadeUp>
           <FadeUp key="description-1" duration={0.6} delay={0.2}>
             <p className="mt-8 text-base font-medium text-zinc-900 dark:text-zinc-300 sm:text-lg md:text-lg">
-            I turn vision into secure and functional digital experiences. Whether I'm developing web or mobile applications, hunting threats in a SOC environment, or performing penetration tests, I bring a strong security mindset, 
-            technical versatility, and user-focused thinking to every project I take on.
+              I turn vision into secure and functional digital experiences.
+              Whether I'm developing web or mobile applications, hunting threats
+              in a SOC environment, or performing penetration tests, I bring a
+              strong security mindset, technical versatility, and user-focused
+              thinking to every project I take on.
             </p>
           </FadeUp>
           <FadeUp key="description-2" duration={0.6} delay={0.4}>
@@ -47,8 +50,10 @@ export default function AboutHero() {
               <Link href="/projects" className="underline underline-offset-4">
                 <span className="text-accent">projects</span>
               </Link>{" "}
-              Showcasing my expertise in React.js, Angular, JavaScript, and TypeScript for web development, while also leveraging Python, C++, and Java for scripting, automation, 
-              and cybersecurity-oriented tasks such as threat analysis and vulnerability research.
+              Showcasing my expertise in React.js, Angular, JavaScript, and
+              TypeScript for web development, while also leveraging Python, C++,
+              and Java for scripting, automation, and cybersecurity-oriented
+              tasks such as threat analysis and vulnerability research.
             </p>
           </FadeUp>
           <FadeRight

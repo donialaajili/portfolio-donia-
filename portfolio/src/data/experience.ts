@@ -20,8 +20,8 @@ export const EXPERIENCE: ExperienceShowcaseListItemProps[] = [
     date: "July 2024  - Oct 2024",
     location: "",
     description:
-      "Developed the CO2 section of the mobile application using Angular and Ionic.\n" + 
-      "Integrated functional user interfaces and Adobe XD designs.\n" + 
+      "Developed the CO2 section of the mobile application using Angular and Ionic.\n" +
+      "Integrated functional user interfaces and Adobe XD designs.\n" +
       "Resolved bugs caused by outdated dependencies and optimized existing code.\n" +
       "Assisted in backend development using Symfony.",
   },
@@ -34,8 +34,8 @@ export const EXPERIENCE: ExperienceShowcaseListItemProps[] = [
     date: "Winter - 2023",
     location: "",
     description:
-    "Designed and developed an interactive website using HTML, CSS/SCSS, and JavaScript.\n" +
-    "Created immersive 3D animations with the Three.js library to enhance user experience.\n" +
-    "Optimized website performance and ensured full responsive-design compatibility."
+      "Designed and developed an interactive website using HTML, CSS/SCSS, and JavaScript.\n" +
+      "Created immersive 3D animations with the Three.js library to enhance user experience.\n" +
+      "Optimized website performance and ensured full responsive-design compatibility.",
   },
 ];

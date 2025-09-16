@@ -77,10 +77,9 @@ export default function ExperienceShowcaseListItem(
         <span className="text-sm font-medium text-foreground xs:text-base">
           {props.date} | {props.location}
         </span>
-        <p className="text-sm font-medium text-muted-foreground xs:text-base whitespace-pre-line">
-  {props.description}
-</p>
-
+        <p className="whitespace-pre-line text-sm font-medium text-muted-foreground xs:text-base">
+          {props.description}
+        </p>
       </motion.div>
     </li>
   );
