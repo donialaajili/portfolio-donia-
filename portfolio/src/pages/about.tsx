@@ -11,17 +11,17 @@ export default function About() {
     <>
       <NextSeo
         title="Donia Laajili | cybersecurity"
-        description="Learn more about Amit Chauhan, a dedicated Software Developer with 2 years of experience. Discover the journey, skills, and passion that drive me to create innovative and user-friendly web solutions."
+        description="Learn more about Donia Laajili, a dedicated cybersecurity. Discover the journey, skills."
         canonical={`${siteMetadata.siteUrl}/about`}
         openGraph={{
           url: `${siteMetadata.siteUrl}/about`,
-          title: "Learn About Amit Chauhan - Software Developer",
+          title: "Learn About Donia Laajili - Cybersecurity",
           description:
-            "Dive into the story of Amit Chauhan, a Software Developer. Uncover the experiences, skills, and passion that fuel a commitment to delivering exceptional web solutions.",
+            "Dive into the story of Donia Laajili, a Cybersecurity. Uncover the experiences, skills.",
           images: [
             {
               url: `${siteMetadata.siteUrl}${siteMetadata.twitterImage}`,
-              alt: "Amit Chauhan - Portfolio Image",
+              alt: "Donia Laajili - Portfolio Image",
             },
           ],
           siteName: siteMetadata.siteName,
@@ -34,7 +34,7 @@ export default function About() {
           {
             property: "keywords",
             content:
-              "Software Developer portfolio, Software Developer, React Developer, Frontend Developer, Web Developer, JavaScript, HTML, CSS, Professional Journey, Skills, Passion for Web Development",
+              "Software Developer portfolio, cybersecurity, React Developer, Frontend Developer, Web Developer, JavaScript, HTML, CSS, python, Skills, Passion for cybersecurity",
           },
         ]}
       />
