@@ -38,10 +38,10 @@ export default function AboutHero() {
           <FadeUp key="description-1" duration={0.6} delay={0.2}>
             <p className="mt-8 text-base font-medium text-zinc-900 dark:text-zinc-300 sm:text-lg md:text-lg">
               I turn vision into secure and functional digital experiences. I&apos;m
-              developing web or mobile applications, hunting threats in a SOC
-              environment, or performing penetration tests, I bring a strong security
-              mindset, technical versatility, and user-focused thinking to every project
-              I take on.
+              passionate about developing web and mobile applications, hunting
+              threats in SOC environments, and performing penetration tests. I
+              bring a strong security mindset, technical versatility, and
+              user-focused thinking to every project I take on.
             </p>
           </FadeUp>
           <FadeUp key="description-2" duration={0.6} delay={0.4}>
@@ -72,7 +72,7 @@ export default function AboutHero() {
               />
             </div>
             <span className="text-lg font-medium text-foreground">
-              vichy, France
+              Vichy, France
             </span>
           </FadeRight>
         </AnimatePresence>
