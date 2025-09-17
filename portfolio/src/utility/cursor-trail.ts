@@ -6,9 +6,6 @@ export type CursorTrail = {
 };
 
 export function cursorTrail(props: CursorTrail) {
-  const colorRaw = getComputedStyle(document.documentElement).getPropertyValue(
-    "--accent",
-  );
   const accentColor = "rgba(128, 0, 255, 0.35)"; // violet avec opacité
 
   const { ref, color } = props;
